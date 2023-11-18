@@ -1,0 +1,208 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.conteiner{
+    width: 1150px;
+    margin: 0 auto;
+}
+
+
+.header{
+background-color: rgb(6,57,74 );
+height: 100vh;
+
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+nav ul{
+    display: flex;
+    gap:20px;
+    padding: 15px 0px;
+    margin: 10px 0px;
+
+}
+nav a{
+    color: #A1B5BB;
+    display: flex;
+    font-weight: 600;
+    font-size: 18px;
+
+
+}
+
+nav a:hover {
+    color: white;
+    display: flex;
+    border-bottom: 1px ;
+
+
+
+}
+
+nav button{
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #fff;
+    background: #094556;
+    border: none;
+
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    width: 370px;
+    gap: 300px;
+
+}
+
+.header-right img{
+    width: 400px;
+}
+
+.header-left h1{
+width: 370px;
+}
+
+.title{
+    display:inline-block;
+    margin-top: 10px 0px    ;
+    border: solid ;
+    border-radius: 25px;
+    padding: 10px;
+
+}
+
+.header-left text{
+    font-size: 18px;
+    width: 390px;
+}
+
+.bit button{
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+
+}
+
+.bit {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+header .bit button:hover{
+background-color: #FFA63A;
+color: blue;
+}
+
+
+.rer{
+    text-align: center;
+    color: #08546C;
+}
+
+.rer h6{
+    margin: 30px;
+
+}
+
+
+.rer h3{
+    justify-content: center;
+    margin: 80px;
+}
+
+.card{
+    display: flex;
+    container: 1150px;
+    width: 500px;
+    gap: 20px;
+    flex-wrap: 1150px;
+    background-color: #A1B5BB;
+
+}
+
+.cards{
+    display: flex;
+    margin: 100px;
+    gap: 250px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+.carda h2{
+color: #08546C;
+text-align: center;
+}
+.carda h6{
+    color: #50585b;
+    text-align: center;
+}
+
+
+
+.finish{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: #094556;
+    height: 700px;
+    color: #4b8597;
+}
+
+.left{
+margin: 30px;
+}
+
+.right p{
+font-size: 70px;
+
+}
+
+.right h5{
+    width: 460px;
+    font-size: 18px;
+}
+
+.right a{
+    color: #4b8597;
+    font-size: 20px;
+}
+
+.right a:hover{
+    color: #A1B5BB;
+    border: solid 1px;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.carda h6{
+    margin: 10px 20px;
+    font-size: 18px;
+}
+
+button:hover{
+    color: blue;
+    background-color: #FFA63A   ;
+
+}
